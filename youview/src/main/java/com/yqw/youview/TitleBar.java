@@ -72,13 +72,13 @@ public class TitleBar extends ConstraintLayout{
         tv_title.setTextColor(titleTextColor);
         tv_title.setText(titleText);
         if (null == leftImageSrc){
-            iv_left.setVisibility(View.GONE);
+            iv_left.setVisibility(View.INVISIBLE);
         }else {
             iv_left.setVisibility(View.VISIBLE);
             iv_left.setImageDrawable(leftImageSrc);
         }
         if (null == rightImageSrc){
-            iv_right.setVisibility(View.GONE);
+            iv_right.setVisibility(View.INVISIBLE);
         }else {
             iv_right.setVisibility(View.VISIBLE);
             iv_right.setImageDrawable(rightImageSrc);
