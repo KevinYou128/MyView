@@ -26,6 +26,7 @@ public class TitleBar extends ConstraintLayout{
     private Drawable leftImageSrc;
     private Drawable rightImageSrc;
     private String titleText;
+    private float titleTextSize;
 
     public TitleBar(Context context) {
         super(context);
@@ -58,6 +59,7 @@ public class TitleBar extends ConstraintLayout{
         titleText = mTypedArray.getString(R.styleable.TitleBar_titleText);
         leftImageSrc = mTypedArray.getDrawable(R.styleable.TitleBar_leftImageSrc);
         rightImageSrc = mTypedArray.getDrawable(R.styleable.TitleBar_rightImageSrc);
+        titleTextSize = mTypedArray.getDimension(R.styleable.TitleBar_titleTextSize,getResources().getDimension(R.dimen.title_size));
 
         //获取资源后要及时回收
         mTypedArray.recycle();
@@ -71,6 +73,7 @@ public class TitleBar extends ConstraintLayout{
 
         cl_toolbar.setBackgroundColor(backColor);
         tv_title.setTextColor(titleTextColor);
+        tv_title.setTextSize(titleTextSize);
         tv_title.setText(titleText);
         if (null == leftImageSrc){
             iv_left.setVisibility(View.INVISIBLE);

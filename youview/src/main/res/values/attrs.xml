@@ -6,6 +6,7 @@
         <attr name="titleTextColor" format="color"/>
         <attr name="titleBackground" format="color"/>
         <attr name="titleText"/>
+        <attr name="titleTextSize"/>
         <attr name="leftImageSrc" format="reference"/>
         <attr name="rightImageSrc"/>
     </declare-styleable>
