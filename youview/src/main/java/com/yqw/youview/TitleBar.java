@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 /**
  * 通用toolbar
+ * @Author youqinwei
  */
 public class TitleBar extends ConstraintLayout{
     ImageView iv_left;
