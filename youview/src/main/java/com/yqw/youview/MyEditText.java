@@ -15,6 +15,7 @@ import android.widget.ImageView;
 
 /**
  * 加了一个X点击清空输入框的功能的EditText
+ * @Author youqinwei
  * <!--visibilityDown VISIBLE==0 GONE==8-->
  */
 public class MyEditText extends ConstraintLayout {

@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 /**
  * 设置界面的item
+ * @Author youqinwei
  */
 public class SettingsItemBar extends ConstraintLayout {
     ConstraintLayout cl_settings_item_bar;
