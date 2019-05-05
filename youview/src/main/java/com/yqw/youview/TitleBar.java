@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.support.constraint.ConstraintLayout;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -73,7 +74,7 @@ public class TitleBar extends ConstraintLayout{
 
         cl_toolbar.setBackgroundColor(backColor);
         tv_title.setTextColor(titleTextColor);
-        tv_title.setTextSize(titleTextSize);
+        tv_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, titleTextSize);
         tv_title.setText(titleText);
         if (null == leftImageSrc){
             iv_left.setVisibility(View.INVISIBLE);

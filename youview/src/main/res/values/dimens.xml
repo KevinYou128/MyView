@@ -16,9 +16,9 @@
 
     <dimen name="ic_padding">12dp</dimen>
 
-    <dimen name="title_size">20dp</dimen>
-    <dimen name="title_size_middle">18dp</dimen>
-    <dimen name="title_size_small">16dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="title_size_middle">18sp</dimen>
+    <dimen name="title_size_small">16sp</dimen>
 
     <dimen name="main_tab_count_round">18dp</dimen>
 

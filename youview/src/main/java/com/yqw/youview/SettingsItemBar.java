@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.support.constraint.ConstraintLayout;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -111,8 +112,10 @@ public class SettingsItemBar extends ConstraintLayout {
 
         cl_settings_item_bar.setBackgroundColor(backColor);
         tv_left.setTextColor(leftTextColor);
+        tv_left.setTextSize(TypedValue.COMPLEX_UNIT_PX,leftTextSize);//因为获取到的是px值，所以这样设置字体大小
         tv_left.setText(leftText);
         tv_right.setTextColor(rightTextColor);
+        tv_right.setTextSize(TypedValue.COMPLEX_UNIT_PX,leftTextSize);//因为获取到的是px值，所以这样设置字体大小
         tv_right.setText(rightText);
         if (null == leftImageSrc){
             iv_left.setVisibility(View.GONE);
