@@ -11,7 +11,7 @@
         <attr name="rightImageSrc"/>
     </declare-styleable>
     <declare-styleable name="SettingsItemBar">
-        <attr name="itemBackground" format="reference"/>
+        <attr name="itemBackground"/>
         <attr name="leftTextColor" format="color"/>
         <attr name="leftText" format="string"/>
         <attr name="leftTextSize"/>

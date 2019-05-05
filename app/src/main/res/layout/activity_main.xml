@@ -23,8 +23,8 @@
         android:layout_height="@dimen/dp_50"
         app:leftText="建议"
         app:leftImageSrc="@mipmap/ic_send_me"
-        app:topLine_height="1dp"
-        app:topLine_show="false"
+        app:topLine_show="true"
+        app:bottomLine_show="true"
         app:rightImageSrc="@mipmap/ic_right"/>
 
 </LinearLayout>
