@@ -87,12 +87,12 @@ public class SettingsItemBar extends ConstraintLayout {
 
         topLineMarginLeft = mTypedArray.getDimension(R.styleable.SettingsItemBar_topLine_marginLeft,0);
         topLineMarginRight = mTypedArray.getDimension(R.styleable.SettingsItemBar_topLine_marginRight,0);
-        topLineHeight = mTypedArray.getDimension(R.styleable.SettingsItemBar_topLine_height,2);
+        topLineHeight = mTypedArray.getDimension(R.styleable.SettingsItemBar_topLine_height,1);
         topLineShow = mTypedArray.getBoolean(R.styleable.SettingsItemBar_topLine_show, false);
         topLineColor = mTypedArray.getColor(R.styleable.SettingsItemBar_topLine_color, getResources().getColor(R.color.divider_color));
-        bottomLineMarginLeft = mTypedArray.getDimension(R.styleable.SettingsItemBar_bottomLine_marginLeft,40);
+        bottomLineMarginLeft = mTypedArray.getDimension(R.styleable.SettingsItemBar_bottomLine_marginLeft,20);
         bottomLineMarginRight = mTypedArray.getDimension(R.styleable.SettingsItemBar_bottomLine_marginRight,0);
-        bottomLineHeight = mTypedArray.getDimension(R.styleable.SettingsItemBar_bottomLine_height,2);
+        bottomLineHeight = mTypedArray.getDimension(R.styleable.SettingsItemBar_bottomLine_height,1);
         bottomLineShow = mTypedArray.getBoolean(R.styleable.SettingsItemBar_bottomLine_show, false);
         bottomLineColor = mTypedArray.getColor(R.styleable.SettingsItemBar_bottomLine_color, getResources().getColor(R.color.divider_color));
         backColor = mTypedArray.getColor(R.styleable.SettingsItemBar_itemBackground, getResources().getColor(R.color.white));
