@@ -11,20 +11,23 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_50"
         app:leftImageSrc="@mipmap/ic_back"
-        app:titleText="我的View"/>
-<com.yqw.youview.MyEditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="请输入XXX"
-    />
+        app:titleText="我的View" />
+
+    <com.yqw.youview.MyEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入XXX" />
 
     <com.yqw.youview.SettingsItemBar
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_50"
-        app:leftText="建议"
-        app:leftImageSrc="@mipmap/ic_send_me"
-        app:topLine_show="true"
         app:bottomLine_show="true"
-        app:rightImageSrc="@mipmap/ic_right"/>
+        app:leftImageSrc="@mipmap/ic_send_me"
+        app:leftText="建议"
+        app:rightImageSrc="@mipmap/ic_right"
+        app:topLine_show="true" />
+    <com.yqw.youview.AddSubtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_50"/>
 
 </LinearLayout>

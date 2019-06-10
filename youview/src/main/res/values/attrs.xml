@@ -42,6 +42,10 @@
         <!--visibilityDown VISIBLE==0 GONE==8-->
         <attr name="visibilityDown" format="integer"/>
     </declare-styleable>
+    <!--有加减符号的输入框-->
+    <declare-styleable name="AddSubtractEditText">
+        <attr name="android:text"/>
+    </declare-styleable>
     <declare-styleable name="InfoDownText">
         <!--直接使用系统中已定义的语意明确的属性，不用设置format-->
         <attr name="titleText"/>

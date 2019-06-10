@@ -96,11 +96,11 @@ public class TitleBar extends ConstraintLayout{
         }
     }
 
-    public void setLeftListener(View.OnClickListener onClickListener){
+    public void setLeftListener(OnClickListener onClickListener){
         iv_left.setOnClickListener(onClickListener);
     }
 
-    public void setRightListener(View.OnClickListener onClickListener){
+    public void setRightListener(OnClickListener onClickListener){
         iv_right.setOnClickListener(onClickListener);
     }
 
